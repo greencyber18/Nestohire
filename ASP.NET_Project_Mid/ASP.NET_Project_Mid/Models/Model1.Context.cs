@@ -13,10 +13,10 @@ namespace ASP.NET_Project_Mid.Models
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class HomeRentEntities1 : DbContext
+    public partial class HomeRentEntities2 : DbContext
     {
-        public HomeRentEntities1()
-            : base("name=HomeRentEntities1")
+        public HomeRentEntities2()
+            : base("name=HomeRentEntities2")
         {
         }
     

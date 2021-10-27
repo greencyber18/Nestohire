@@ -190,7 +190,7 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <EntityContainer Name="HomeRentEntities1" annotation:LazyLoadingEnabled="true">
+        <EntityContainer Name="HomeRentEntities2" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="Bookings" EntityType="Self.Booking" />
           <EntitySet Name="Flats" EntityType="Self.Flat" />
           <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
@@ -213,7 +213,7 @@
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="HomeRentModelStoreContainer" CdmEntityContainer="HomeRentEntities1">
+        <EntityContainerMapping StorageEntityContainer="HomeRentModelStoreContainer" CdmEntityContainer="HomeRentEntities2">
           <EntitySetMapping Name="Bookings">
             <EntityTypeMapping TypeName="HomeRentModel.Booking">
               <MappingFragment StoreEntitySet="Booking">
