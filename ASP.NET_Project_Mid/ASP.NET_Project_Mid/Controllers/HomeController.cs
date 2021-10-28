@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using ASP.NET_Project_Mid.Repo;
+
+
 
 namespace ASP.NET_Project_Mid.Controllers
 {
@@ -12,6 +15,7 @@ namespace ASP.NET_Project_Mid.Controllers
         {
             return View();
         }
+         
 
         public ActionResult About()
         {
